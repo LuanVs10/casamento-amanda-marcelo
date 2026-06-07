@@ -11,7 +11,7 @@ export function Hero({
   return (
     <section className="relative h-screen overflow-hidden">
       <motion.img
-        src="/img/casal.jpeg"
+        src={`${import.meta.env.BASE_URL}img/casal.jpeg`}
         alt="Amanda e Marcelo"
         className="absolute inset-0 h-full w-full object-cover object-top"
         initial={{

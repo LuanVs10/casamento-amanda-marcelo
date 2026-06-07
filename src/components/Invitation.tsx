@@ -10,7 +10,7 @@ export function Invitation() {
           </h2>
 
           <img
-            src="/img/convite.jpeg"
+            src={`${import.meta.env.BASE_URL}img/convite.jpeg`}
             alt="Convite de casamento"
             className="
               w-full

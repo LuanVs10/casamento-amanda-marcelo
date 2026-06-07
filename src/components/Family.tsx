@@ -6,7 +6,7 @@ export function Family() {
       <section className="bg-white px-6 py-16">
         <div className="mx-auto max-w-lg">
           <img
-            src="/img/familia.jpeg"
+            src={`${import.meta.env.BASE_URL}img/familia.jpeg`}
             alt="Família"
             className="
               w-full
