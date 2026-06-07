@@ -22,8 +22,8 @@ export function Family() {
             </h2>
 
             <p className="mt-6 leading-8 text-stone-600">
-              Será uma grande alegria compartilhar este momento tão especial
-              com nossos familiares e amigos.
+              {/* Será uma grande alegria compartilhar este momento tão especial
+              com nossos familiares e amigos. */}
             </p>
 
             <p className="mt-4 leading-8 text-stone-600">
